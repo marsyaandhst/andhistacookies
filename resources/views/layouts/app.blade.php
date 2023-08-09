@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
     @vite('resources/css/app.css')
+    <!-- <link href="{{ asset('build/assets/app-46521879.css') }}" rel="stylesheet"> -->
     <!-- CSRF Token -->
     <meta name="csrf-token" content="{{ csrf_token() }}">
 
@@ -18,6 +19,7 @@
 
     <!-- Scripts -->
     @vite(['resources/sass/app.scss', 'resources/js/app.js'])
+    <!-- <script src="{{ asset('build/assets/app-571254e0.js') }}" defer></script> -->
 </head>
 <body>
     @include('sweetalert::alert')
